@@ -1,7 +1,19 @@
-import Image from "next/image";
+import {
+  Camp,
+  Features,
+  GetApp,
+  Guide,
+  Hero,
+} from "@/components/sections/home";
 
 export default function Home() {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   );
 }

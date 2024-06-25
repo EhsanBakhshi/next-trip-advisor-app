@@ -8,6 +8,12 @@ const buttonVariants = cva("bold-16 whitespace-nowrap", {
   variants: {
     variant: {
       dark: "bg-green-90 px-8 py-4 text-white transition-all hover:bg-black",
+      darkOutline: "border-gray-20 bg-green-90 px-8 py-5 text-white",
+      green: "border-green-50 bg-green-50 px-8 py-5 text-white",
+      darkGreen:
+        "bg-green-90 px-8 py-4 text-white transition-all hover:bg-black",
+      white: "border-white bg-white px-8 py-3 text-green-50",
+      whiteText: "border-white bg-white px-8 py-3 text-gray-90",
     },
   },
   defaultVariants: {
