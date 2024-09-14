@@ -58,7 +58,15 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 Hilink | All rights reserved.
+        © {new Date().getFullYear()}. Designed and developed by{" "}
+            <a
+              href="https://github.com/EhsanBakhshi"
+              className="text-blue-700"
+              target="_blank"
+            >
+              Ehsan Bakhshi
+            </a>
+            . All rights reserved.
         </p>
       </div>
     </footer>
